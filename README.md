@@ -44,7 +44,7 @@ Open GET /visualization and enter input parameters for the plot
 
 Click on execute to get the plots for the entered parameters
 
-![alt text](visualize-data-success.png)
+![alt text](readme-images/visualize-data-success.png)
 
 In the Response Body there will be an option to download file click on that to download a zip file containing images of the plots.
 Extract the Zip File to view the plots.
