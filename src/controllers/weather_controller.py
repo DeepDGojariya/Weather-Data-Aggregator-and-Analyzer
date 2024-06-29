@@ -68,7 +68,10 @@ def load_weather_data(res: Response, db: Session):
         db.commit()
         print(f"{row_count} Rows Inserted into the Weather Table")
         
-        return status.HTTP_201_CREATED
+        # Setting status code for resonse
+        res.status_code = status.HTTP_201_CREATED
+
+        return "Successfully Ingested Weather Data"
 
     except Exception as e:
         db.rollback()
