@@ -10,13 +10,15 @@ This is an python application created with the help of FastAPI which fetches wea
         
     git clone https://github.com/DeepDGojariya/Weather-Data-Aggregator-and-Analyzer.git .
 
-  2. After Cloning the Repository open the folder in any Code editor of your choice I'd prefer VSCode.
-    
-    Installing Dependencies
+  2. After Cloning the Repository open the folder in any code editor of your choice I'd prefer VSCode. Let us Install the required dependecies.
 
     cd src
     pip install -r requirements.txt
 
-  3. Let's Boot the Project up.
+  5. Let's Boot the Project up.
+
     uvicorn main:app --reload
+
+    ![image](https://github.com/DeepDGojariya/Weather-Data-Aggregator-and-Analyzer/assets/59405728/b5794d23-41fd-48f6-a3b1-e77570ea9c2f)
+
     
